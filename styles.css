@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 0;
+}
+
+span {
+  font-weight: 700;
+  color: black;
+}
+
+div {
+  margin: 30px 0 0;
+}
+
+footer {
+  font-size: 10px;
+  padding-top: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img {
+  width: 50vw;
+  margin-top: 50px;
+}
+
+#mail {
+  padding: 15px 20px;
+  width: 20vw;
+  border-radius: 25px;
+  /* border: 1px solid hsl(0, 0%, 59%); */
+  margin-right: 20px;
+}
+
+::placeholder {
+  color: hsl(0, 0%, 59%);
+  opacity: 0.7;
+}
+
+#btn {
+  padding: 15px;
+  border-radius: 25px;
+  border: 0;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  width: 133px;
+  font-weight: 600;
+}
+
+#btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.error {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+.error-p {
+  color: hsl(354, 100%, 66%);
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.fa-brands {
+  color: hsl(223, 87%, 63%);
+  font-size: 15px;
+  margin: 10px;
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 10px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: hsl(223, 87%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 400px) {
+  #mail {
+    width: 75vw;
+  }
+
+  #btn {
+    width: 75vw;
+  }
+
+  .img {
+    width: 90vw;
+  }
+
+  .error-p {
+    position: static;
+  }
+}
